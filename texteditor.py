@@ -43,7 +43,7 @@ openBut = tk.Button(buttonFrame, text = "Open", command = fileOpen)
 saveBut = tk.Button(buttonFrame, text = "Save As...", command = fileSave)
 
 openBut.grid(row = 0, column = 0, sticky = "ew", padx = 5, pady = 5)
-saveBut.grid(row = 1, column = 0, sticky = "ew", psadx = 5, pady = 5)
+saveBut.grid(row = 1, column = 0, sticky = "ew", padx = 5, pady = 5)
 
 buttonFrame.grid(row = 0, column = 0, sticky = "ns")
 textEdit.grid(row = 0, column = 1, sticky = "nsew")
